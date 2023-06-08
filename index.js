@@ -31,3 +31,9 @@ document.querySelector('.carusel__leftArrow').addEventListener('click', () => {
     carusel.style.left = -currPosition + '%';
     currPage.innerHTML = currNumberPage + '/4'
 }) 
+
+let body = document.querySelector('body');
+let burger = document.getElementById('menu__toggle');
+burger.addEventListener('change', () => {
+    burger.checked ? body.style.overflow = 'hidden' :  body.style.overflow = 'visible'
+})

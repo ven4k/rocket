@@ -1,0 +1,225 @@
+@import url('./fonts.scss');
+@import url('./normalize.scss');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: #E5E5E5;
+    font-family: 'PT Sans Caption';
+}
+.htmlWrapper{
+    flex: 1 1 auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentWrappper {
+    width: 1200px;
+}
+
+main {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 533px;
+    background: #F8FBFA;
+
+    .main__background {
+        z-index: 10;
+        position: absolute;
+        width: 1920px;
+
+
+        img {
+            position: absolute;
+            width: 950px;
+            height: 532px;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    .main__contentWrappper {
+        padding: 0 .8rem;
+        width: 1200px;
+        z-index: 20;
+
+        h2 {
+            width: 416px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 47px;
+            color: #364844;
+            margin: 144px 0 0 0;
+            
+        }
+
+        p {
+            width: 367px;
+            font-family: 'PT Sans Caption';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #364844;
+            margin: 14px 0 0 0;
+        }
+    }
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 30px 0 0;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.button {
+    width: 196px;
+    height: 43px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.normal_button {
+    background: #0DBC91;
+}
+
+.noneBackground_button {
+    margin: 0 0 0 14px;
+    background: none;
+    border: 1px solid #0DBC91;
+    color: #0DBC91;
+}
+
+@media screen and (width <=375px) {
+    .contentWrappper {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100vw;
+        height: auto;
+        max-height: 100vh;
+        background: none;
+        padding: 0;
+        background-color: #fff;
+
+        .main__background {
+            position: relative;
+            width: 100vw;
+            height: 288px;
+            overflow: hidden;
+
+
+            img {
+                position: relative;
+                width: 375px;
+                height: 288px;
+
+            }
+        }
+
+        .main__contentWrappper {
+            width: 100vw;
+            background: #F8FBFA;
+            overflow-wrap: break-word;
+            padding: 0;
+
+            h2 {
+                width: 100vw;
+                font-size: 26px;
+                line-height: 34px;
+                margin: 34px 0 0 0;
+                padding: 0 17px 0 17px;
+            }
+
+            p {
+                width: 100vw;
+                font-size: 14px;
+                line-height: 150%;
+                padding: 0 17px 53px 17px;
+            }
+        }
+
+    }
+}
+@media screen and (width > 375px) and (width <=800px)  {
+    .contentWrappper {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100vw;
+        height: auto;
+        max-height: 100vh;
+        background: none;
+        background-color: #fff;
+
+        .main__background {
+            position: relative;
+            width: 100vw;
+            overflow: hidden;
+
+            img {
+                position: relative;
+                min-width: 500px;
+                width: 100vw;
+                height: 50vh;
+            }
+        }
+
+        .main__contentWrappper {
+            width: 100vw;
+            background: #F8FBFA;
+            overflow-wrap: break-word;
+            padding: 0;
+
+            h2 {
+                width: 100vw;
+                font-size: 26px;
+                line-height: 34px;
+                margin: 34px 0 0 0;
+                padding: 0 17px 0 17px;
+            }
+
+            p {
+                width: 100vw;
+                font-size: 14px;
+                line-height: 150%;
+                padding: 0 17px 53px 17px;
+            }
+        }
+
+    }
+}

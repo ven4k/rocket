@@ -12,7 +12,7 @@
         position: relative;
         width: 1140px;
         height: 440px;
-        margin: 100px 0 0 0;
+        margin: 6.25rem 0 0 0;
         display: flex;
         background-color: #E2F0EF;
         overflow: hidden;
@@ -33,15 +33,15 @@
             }
 
             .carusel__info {
-                margin: 53px 0 56px 63px;
+                margin: 3.375rem 0 3.5rem 4rem;
                 display: flex;
                 flex-direction: column;
 
                 h3 {
                     width: 300px;
                     font-weight: 700;
-                    font-size: 38px;
-                    line-height: 49px;
+                    font-size: 2.375rem;
+                    line-height: 3.125rem;
                     text-transform: uppercase;
                     color: #364844;
                 }
@@ -49,14 +49,14 @@
                 h4 {
                     width: 132px;
                     font-weight: 400;
-                    font-size: 22px;
-                    line-height: 28px;
+                    font-size: 1.375rem;
+                    line-height: 1.75rem;
                     color: #364844;
                 }
 
                 ul {
                     display: block;
-                    margin: 16px 0 0 0;
+                    margin: 1rem 0 0 0;
                     width: 393px;
 
                     li {
@@ -64,29 +64,29 @@
 
                         span {
                             display: block;
-                            margin: 8px 0 0 0;
+                            margin: 0.5rem 0 0 0;
                             color: #364844;
                         }
                     }
                 }
 
                 .carusel__costBlock {
-                    margin: 33px 0 0 0;
+                    margin: 2.125rem 0 0 0;
                     display: flex;
                     align-items: center;
 
                     .carusel__currCost {
                         font-weight: 400;
-                        font-size: 20px;
-                        line-height: 26px;
+                        font-size: 1.25rem;
+                        line-height: 1.625rem;
                         color: #364844;
                     }
 
                     .carusel__prevCost {
                         margin: 0 0 0 16px;
                         font-weight: 400;
-                        font-size: 16px;
-                        line-height: 24px;
+                        font-size: 1rem;
+                        line-height: 1.5rem;
                         text-decoration-line: line-through;
                         color: #868686;
 
@@ -95,14 +95,14 @@
 
                 .carusel__btnsBlock {
                     display: flex;
-                    margin: 26px 0 0 0;
+                    margin: 1.625rem 0 0 0;
                 }
 
             }
 
             .carusel__backgroundImage {
                 position: relative;
-                left: -21px;
+                left: -1.375rem;
 
                 img {
                     width: 692px;
@@ -115,22 +115,22 @@
     }
 
     .carusel__paging {
-        margin: 40px 0 0 0;
+        margin: 2.5rem 0 0 0;
         display: flex;
         height: 24px;
         justify-content: center;
         align-items: center;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 23px;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
         color: #364844;
 
         .carusel__leftArrow {
-            margin: 0 36px 0 0;
+            margin: 0 2.25rem 0 0;
         }
 
         .carusel__rightArrow {
-            margin: 0 0 0 36px;
+            margin: 0 0 0 2.25rem;
             transform: matrix(-1, 0, 0, 1, 0, 0);
         }
 
@@ -144,7 +144,7 @@
 
 @media screen and (width <=375px) {
     .caruselBlock {
-        padding: 50px 0 0 0;
+        padding: 3.125rem 0 0 0;
         background-color: #fff;
         width: 100vw;
         justify-content: flex-start;
@@ -172,22 +172,22 @@
                 }
 
                 .carusel__info {
-                    margin: 22px 23px;
+                    margin: 1.375rem 1.5rem;
                     display: flex;
                     flex-direction: column;
 
                     h3 {
-                        font-size: 26px;
-                        line-height: 34px;
+                        font-size: 1.625rem;
+                        line-height: 2.125rem;
                     }
 
                     h4 {
-                        font-size: 14px;
-                        line-height: 18px;
+                        font-size: 0.875rem;
+                        line-height: 1.125rem;
                     }
 
                     ul {
-                        margin: 16px 0 0 16px;
+                        margin: 1rem 0 0 1rem;
                         width: 100vw;
 
                         li {
@@ -195,7 +195,7 @@
 
                             span {
                                 font-weight: 400;
-                                font-size: 14px;
+                                font-size: 0.875rem;
                                 line-height: 145%;
                             }
                         }
@@ -204,14 +204,14 @@
                     .carusel__costBlock {
 
                         .carusel__currCost {
-                            font-size: 18px;
-                            line-height: 23px;
+                            font-size: 1.125rem;
+                            line-height: 1.5rem;
                         }
 
                         .carusel__prevCost {
-                            margin: 0 0 0 16px;
-                            font-size: 14px;
-                            line-height: 18px;
+                            margin: 0 0 0 1rem;
+                            font-size: 0.875rem;
+                            line-height: 1.125rem;
                         }
                     }
 
@@ -238,7 +238,7 @@
 
 @media screen and (width > 375px) and (width < 600px) {
     .caruselBlock {
-        padding: 50px 0 0 0;
+        padding: 3.125rem 0 0 0;
         background-color: #fff;
         width: 100vw;
         height: 100vh;
@@ -267,22 +267,22 @@
                 }
 
                 .carusel__info {
-                    margin: 22px 23px;
+                    margin: 1.375rem 1.5rem;
                     display: flex;
                     flex-direction: column;
 
                     h3 {
-                        font-size: 26px;
-                        line-height: 34px;
+                        font-size: 1.625rem;
+                        line-height: 2.125rem;
                     }
 
                     h4 {
-                        font-size: 14px;
-                        line-height: 18px;
+                        font-size: 0.875rem;
+                        line-height: 1.125rem;
                     }
 
                     ul {
-                        margin: 16px 0 0 16px;
+                        margin: 1rem 0 0 1rem;
                         width: 100vw;
 
                         li {
@@ -290,7 +290,7 @@
 
                             span {
                                 font-weight: 400;
-                                font-size: 14px;
+                                font-size: 0.875rem;
                                 line-height: 145%;
                             }
                         }
@@ -299,14 +299,14 @@
                     .carusel__costBlock {
 
                         .carusel__currCost {
-                            font-size: 18px;
-                            line-height: 23px;
+                            font-size: 1.125rem;
+                            line-height: 1.5rem;
                         }
 
                         .carusel__prevCost {
-                            margin: 0 0 0 16px;
-                            font-size: 14px;
-                            line-height: 18px;
+                            margin: 0 0 0 1rem;
+                            font-size: 0.875rem;
+                            line-height: 1.125rem;
                         }
                     }
 
@@ -333,7 +333,7 @@
 
 @media screen and (width >=600px) and (width <=800px) {
     .caruselBlock {
-        padding: 50px 0 200px 0;
+        padding: 3.125rem 0 12.5rem 0;
         background-color: #fff;
         width: 100vw;
         height: 120vh;
@@ -362,22 +362,22 @@
                 }
 
                 .carusel__info {
-                    margin: 22px 23px;
+                    margin: 1.375rem 1.5rem;
                     display: flex;
                     flex-direction: column;
 
                     h3 {
-                        font-size: 26px;
-                        line-height: 34px;
+                        font-size: 1.625rem;
+                        line-height: 2.125rem;
                     }
 
                     h4 {
-                        font-size: 14px;
-                        line-height: 18px;
+                        font-size: 0.875rem;
+                        line-height: 1.125rem;
                     }
 
                     ul {
-                        margin: 16px 0 0 16px;
+                        margin: 1rem 0 0 1rem;
                         width: 100vw;
 
                         li {
@@ -385,7 +385,7 @@
 
                             span {
                                 font-weight: 400;
-                                font-size: 14px;
+                                font-size: 0.875rem;
                                 line-height: 145%;
                             }
                         }
@@ -394,14 +394,14 @@
                     .carusel__costBlock {
 
                         .carusel__currCost {
-                            font-size: 18px;
-                            line-height: 23px;
+                            font-size: 1.125rem;
+                            line-height: 1.5rem;
                         }
 
                         .carusel__prevCost {
-                            margin: 0 0 0 16px;
-                            font-size: 14px;
-                            line-height: 18px;
+                            margin: 0 0 0 1rem;
+                            font-size: 0.875rem;
+                            line-height: 1.125rem;
                         }
                     }
 
@@ -435,7 +435,7 @@
 
         .carusel {
             width: 100vw;
-            margin: 50px 0 0 0;
+            margin: 3.125rem 0 0 0;
 
 
 

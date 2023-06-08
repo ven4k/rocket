@@ -88,6 +88,11 @@ header {
         }
     }
 }
+.burger_button{
+    margin: 40px 0 0 0;
+    color: #1FA181 !important;
+    background: #F6F6F6 !important;
+}
 
 #menu__toggle {
     display: none;
@@ -244,6 +249,7 @@ header {
         padding: 80px 20px;
         list-style: none;
         background: rgba(69, 146, 127, 0.9);
+        backdrop-filter: blur(2px);
         transition-duration: .25s;
         z-index: 111;
 
@@ -424,6 +430,7 @@ header {
         padding: 80px 20px;
         list-style: none;
         background: rgba(69, 146, 127, 0.9);
+        backdrop-filter: blur(2px);
         transition-duration: .25s;
         z-index: 111;
 

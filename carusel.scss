@@ -144,21 +144,22 @@
 
 @media screen and (width <=375px) {
     .caruselBlock {
-        padding: 3.125rem 0 0 0;
+        padding: 3.125rem 1.125rem 0 1.125rem;
         background-color: #fff;
         width: 100vw;
+        height: auto;
         justify-content: flex-start;
 
 
         .carusel {
+            border-radius: 5px 5px 0px 0px;
             margin: 0;
             position: relative;
-            width: 100vw;
-            height: 536px;
+            width: 94vw;
+            overflow: hidden;
+            height: auto;
             flex-direction: column;
-
-
-
+          
             .carusel__items {
                 width: 100%;
                 height: 100%;
@@ -166,7 +167,7 @@
 
                 .carusel__slide {
                     flex-direction: column;
-                    width: 100vw;
+                    width: 100%;
                     display: flex;
                     position: relative;
                 }
@@ -175,6 +176,7 @@
                     margin: 1.375rem 1.5rem;
                     display: flex;
                     flex-direction: column;
+                    padding: 0 .4rem 0 0;
 
                     h3 {
                         font-size: 1.625rem;
@@ -191,6 +193,7 @@
                         width: 100vw;
 
                         li {
+                            width: calc(86vw - 1rem);
                             overflow-wrap: break-word;
 
                             span {
@@ -202,7 +205,7 @@
                     }
 
                     .carusel__costBlock {
-
+                        margin: 1.125rem 0 0 0;
                         .carusel__currCost {
                             font-size: 1.125rem;
                             line-height: 1.5rem;
@@ -222,15 +225,18 @@
                     position: relative;
                     top: 0;
                     left: 0;
-
                     img {
+                        border-radius: 5px 5px 0px 0px;
                         width: 100vw;
                         height: 169px;
                         clip-path: none;
                     }
                 }
-
             }
+        }
+        .carusel__paging {
+            margin: 1.5rem 0 0 0;
+            padding: 0 0 1rem 0;
         }
     }
 
@@ -238,17 +244,18 @@
 
 @media screen and (width > 375px) and (width < 600px) {
     .caruselBlock {
-        padding: 3.125rem 0 0 0;
+        padding: 3.125rem 1.125rem 0 1.125rem;
         background-color: #fff;
         width: 100vw;
         height: 100vh;
         justify-content: flex-start;
-
+        box-sizing: border-box;
 
         .carusel {
+            border-radius: 5px 5px 0px 0px;
             margin: 0;
             position: relative;
-            width: 100vw;
+            width: 94vw;
             flex-direction: column;
             height: 668px;
 
@@ -261,7 +268,7 @@
 
                 .carusel__slide {
                     flex-direction: column;
-                    width: 100vw;
+                    width: 100%;
                     display: flex;
                     position: relative;
                 }
@@ -319,6 +326,7 @@
                     left: 0;
 
                     img {
+                        border-radius: 5px 5px 0px 0px;
                         width: 100vw;
                         height: 300px;
                         clip-path: none;
@@ -343,7 +351,7 @@
         .carusel {
             margin: 0;
             position: relative;
-            width: 100vw;
+            width: 94vw;
             flex-direction: column;
             height: 100vh;
 
@@ -356,7 +364,7 @@
 
                 .carusel__slide {
                     flex-direction: column;
-                    width: 100vw;
+                    width: 100%;
                     display: flex;
                     position: relative;
                 }
